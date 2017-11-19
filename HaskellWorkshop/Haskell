@@ -1,0 +1,15 @@
+
+Look into this:
+ - Applicative Programming with Effects: http://www.staff.city.ac.uk/~ross/papers/Applicative.html
+ - Quick Test
+ - pointfree.io
+ - imp foldRight/foldLeft
+ - Theorems for free
+ - Hoogle
+ - Essence of iterative pattern
+ - HexChat
+ - Try to replicate the Haskell `IO` type in java
+ - Monads / Ex: Typeclassopeadia
+ - Lambda calculus
+
+
