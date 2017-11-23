@@ -4,4 +4,4 @@ string1 = "hello"
 string2 = "world"
 
 -- ++ is the string concat operator
-greeting = string1 ++ " " ++ string2 
+greeting = string1 ++ " " ++ string2

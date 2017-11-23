@@ -13,7 +13,7 @@ oddOrEven x =
 -- Using recursions
 -- Haskell doesnot have loops unlike imperative languages
 -- Note that the parentheses are important for letting the compiler know the order of precedence
--- By default the function calls are given the highest priority 
+-- By default the function calls are given the highest priority
 powerOf2 x =
   if x == 0
   then 1
