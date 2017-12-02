@@ -19,4 +19,4 @@ snd' (a,b) = b
 length' [] = 0 -- When we call length' with an empty list, this pattern will be matched
 length' (x:xs) = 1 + length' xs -- This pattern will be matched otherwise
 
--- Now lets revisit our Tryouts. Reimplement our doubleAll and filterEven functions using Pattern matching instead of conditionals
+-- Now lets revisit our Tryouts. Go to 2_ListFunctionsUsingPatternMatch. Reimplement our doubleAll and filterEven functions using Pattern matching instead of conditionals

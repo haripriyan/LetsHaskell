@@ -39,4 +39,4 @@ tailOfX = tail x -- returns [2,3]
 isEmpty = null empty -- Returns a boolean True/False
 
 
--- Now we can try out the example 1 in the Tryouts section
+-- Now we can go to the TryOuts/1_ListFunctions and do some basic Haskell Code
