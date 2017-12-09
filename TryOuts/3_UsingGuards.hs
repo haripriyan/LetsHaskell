@@ -7,3 +7,4 @@ filterEven'' (x:xs)
           | otherwise = filterEven'' xs
 
 -- Don't know about you, but feel like we are expressing our intents better using Guards instead of the earlier conditionals
+-- We can do still better, but not yet ;)
