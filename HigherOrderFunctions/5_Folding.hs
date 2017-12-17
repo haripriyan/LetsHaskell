@@ -27,4 +27,5 @@ foldRSteps x = foldr showFold' "0" x
 -- Now excecute this with a list of [1,2,3,4,5,6]
 -- This prints this "(1+(2+(3+(4+(5+(6+0))))))"
 
---TODO Different between foldl and foldr
+-- foldl is theoretically faster than foldr, since it is tail-recursive in nature and the compiler can run optimizations on this
+-- However foldr can be used on infinite lists, due the lazy evaluation of the function
