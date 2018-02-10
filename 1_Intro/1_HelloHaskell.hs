@@ -5,3 +5,7 @@ string2 = "world"
 
 -- ++ is the string concat operator
 greeting = string1 ++ " " ++ string2
+
+
+-- TODO: Intro into using GHCI?
+-- Compiler setups and IDEs

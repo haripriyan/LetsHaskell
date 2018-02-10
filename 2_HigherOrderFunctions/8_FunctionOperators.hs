@@ -8,7 +8,7 @@ squareAndThenCube = cube . square
 -- Note that in funcion composition the functions are applied to the value from right towards left
 
 -- notNull function of a list
--- Don't get stumped with the line below. It will cleared in due course. Its needed now just for saisfying the compiler
+-- Don't get stumped with the line below. It will be clear in due course. Its needed now just for saisfying the compiler
 notNull:: [a] -> Bool
 notNull = not . null
 

@@ -4,7 +4,7 @@
 -- Function for finding Maximum of 3 numbers
 maxOf3 x y z = max (max x y) z
 
--- Using conditionals. The Indents are important
+-- Using conditionals.
 oddOrEven x =
   if (mod x 2) == 0
   then "Even"

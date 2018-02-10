@@ -14,4 +14,4 @@ result = pass2 incrementBy1
 
 -- Extending our understanding, consider the following function, which takes in two functions and a data
 funcComposition f g x = f (g x)
--- Try funcComposition with the functions incrementBy1 and doubleThis 
+-- Try funcComposition with the functions incrementBy1 and doubleThis

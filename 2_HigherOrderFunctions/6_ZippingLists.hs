@@ -9,6 +9,6 @@ productOfLists = zipWith (*) [1, 2, 3, 5] [7, 8, 9]
 -- [7,16,27]
 
 -- There are also functions to zip more than 2 lists
--- They are zipWith3, zipWith 4 and so on
+-- They are zipWith3, zipWith4 and so on
 add3 a b c = a + b + c
-zipping3Lists = zipWith3 (add3) [1, 2, 3, 5] [7, 8, 9] [23, 52, 72]
+zipping3Lists = zipWith3 add3 [1, 2, 3, 5] [7, 8, 9] [23, 52, 72]
